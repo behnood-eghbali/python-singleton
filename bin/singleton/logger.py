@@ -1,6 +1,6 @@
 import os
 
-log_path = os.path.expanduser('~/code/python/singleton/bin/data/data.log')
+log_path = os.chdir(os.path.expanduser('singleton/bin/data/data.log'))
 
 def write_log(level, msg):
     with open(log_path, 'w') as log_file:
