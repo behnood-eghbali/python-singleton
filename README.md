@@ -1,3 +1,3 @@
 # python-singleton
-The Singleton Design Pattern in Python
-Logging in Python
+# The Singleton Design Pattern in Python
+# Logging Best Practices
