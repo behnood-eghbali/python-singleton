@@ -1,6 +1,6 @@
 import sys
 sys.path.append('package')
-from SingletonPackage.singleton_object import SingletonObject
+from package.singleton_object import SingletonObject
 
 obj1 = SingletonObject()
 obj1.val = "Object value 1"
